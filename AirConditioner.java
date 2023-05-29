@@ -4,14 +4,14 @@ public class AirConditioner {
 	private String productName;
 	private int temperature;
 	
-	public AirConditioner(String productName){
+	public AirConditioner(String Hisense){
 	}
 	
 	public void decreaseTemperature(){
 	}
 	
 	public String getProductName(){
-	return productName;
+	return Hisense;
 	}
 	
 	public int getTemperature(){
@@ -25,10 +25,10 @@ public class AirConditioner {
 	return isOn;
 	}
 	
-	public void setOn (boolean isOn){
+	public void setOn (boolean isOn){ if (isOn== true);
 	}
 	
-	public void setProductName (String productName){
+	public void setProductName (String AirConditioner){
 	}
 	
 	public void setTemperature (int temperature){
